@@ -1,5 +1,5 @@
 body {
-  background-image:url('img/bg.gif');
+  background-image:url('https://cdn.glitch.com/fbb0ed5c-dbc9-4121-bd6e-5c8f836edde6%2Fbg.jpg?v=1576693674280');
   background-repeat:repeat-y;
   font-size: 18px;
   font-family: "Helvetica";
@@ -31,7 +31,7 @@ h2 {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
-img {
+header img {
   display: block;
   margin: 0 auto;
   width: 100%;
@@ -50,28 +50,26 @@ img.profile {
   margin-left: 2%;
   margin-top: -100px;
 }
-img.inlineimg{
-  margin-top:200px;
-  margin-left:5px;
-  width:80%;
+
+main img{
+  margin-top:100px;
+  width:90%;
 }
 
-section.container {
+main {
   background-color: rgba(63, 6, 6, 0.701961);
   opacity: 1;
   padding-bottom:100px;
 }
-section.content{
-  width: 70%;
+section.bio {
+  width: 60%;
   margin: 0 auto;
 }
 
-div.info{
-  margin-bottom: 20px;
-}
 div p{
   float: left;
-  width:300px;
+  width:50%;
+  margin-bottom: 20px;
 }
 
 footer {
